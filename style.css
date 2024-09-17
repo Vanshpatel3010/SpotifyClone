@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color:black;
+}
+.sidebar{
+    display: inline-block;
+    width: 22%;
+}
+.left-top{
+    background-color:#121212;
+    color: white;
+    height: 6.2rem;
+    width: 100%; 
+    border-radius: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem; 
+}
+.Home-sec{
+    margin: 0.7rem 0rem 2rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    display: flex;
+}
+.m_left{
+    margin-left: 2rem;
+}
+.search-sec{
+    margin: 2rem 0rem 2rem 2rem;
+    font-weight: 900;
+    font-size: 1.1rem;
+    display: flex;
+}
+.left-bottom{
+    background-color: #121212;
+    height: 32.3rem;
+    width: 100%;
+    border-radius: 1rem;
+    margin-left:0.5rem;
+    margin-top: 1rem;
+    display: block;   
+}
+.one{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    display: inline-block;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.3rem;;
+    height:1.2rem;
+    background-color:rgb(95, 91, 91);
+    opacity: 0.9;
+    border-radius: 9px;
+}
+.navTwo{
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 0.5rem;
+}
+.list{
+    margin-left: 8.5rem;
+}
+.Content-Left{
+    margin: 3rem 0rem 0rem 1rem;
+    height: 22rem;
+}
+.l_boxes{
+    display: flex;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.box1{
+    height: 3.5rem;
+    width: 3.5rem;
+    /* background-color: aliceblue; */
+    border-radius: 15%;
+    background-image: url(./images/Diljit-Dosanjh.jpg);
+    background-size:cover;
+    display: flex;
+}
+.Artists-info{
+    padding-left: 1rem;
+    font-weight: 600;
+}
+.content{
+    height: 40rem;
+    width: 76%;
+    background-color:#121212;
+    float: right;
+    color: white;
+    margin-top: 0.5rem;
+    margin-right: 0.7rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(to bottom, rgba(70, 70, 70, 0.39) , rgb(18, 18, 18,1));
+}
+.RHS-nav1{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.arrow{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(0, 0, 0, 0.313);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.for-user{
+    display: flex;
+    width: 20%;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-left: 50rem;
+}
+.offers{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    height: 2rem;
+    width: 9rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(0, 0, 0, 0.895);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.profile{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(0, 0, 0, 0.895);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.RHS-nav2{
+    display: flex;
+    padding-left: 1.8rem;
+    margin-top: 0.8rem;
+    height: 3rem;
+}
+.nav2-common{
+    height: 1.5rem;
+    width: 4.5rem;
+    background-color: rgba(251, 246, 246, 0.381);
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.05rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+.heading{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    padding-left: 2.8rem;
+    margin-top: 1.8rem;
+}
+.R_boxes{
+    height: 13rem;
+    width: 11rem;
+    /* background-color: antiquewhite; */
+    margin-left: 2.8rem;
+    margin-top: 1.7rem;
+    display: block;
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 0.5rem;
+}
+.box2{
+    height: 10rem;
+    width: 10rem;
+    /* background-color: aliceblue; */
+    margin-left: 1.25rem;
+    background-size: cover;
+    border-radius: 0.5rem;
+    display: flex;
+}
+.aulbums{
+    display: flex;
+    flex-wrap: wrap;
+}
+.player{
+    height: 5rem;
+    width: 100%;
+}
+.controll-panel1{
+    height: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playback_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress_bar{
+    height: 0.1rem;
+    width: 0.1rem;
+    appearance: none;
+    border-radius: 25rem;
+    width: 38%;
+    background-color: #ddd;
+    font-size: small;
+    cursor: pointer;
+}
